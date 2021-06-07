@@ -22,6 +22,8 @@ public class Main {
 
     ...
 
+    private Config config;
+
     public void implementing() {
     
         config = new Config(Main.getPlugin().getDataFolder() + "/", "config", ModuleType.YML, false);
@@ -132,6 +134,11 @@ public class SpigotModule {
     public HashMap<String, Object> getCache() {
         return cache;
     }
+}
+
+public enum ModuleType {
+    YML,
+    JSON
 }
 ```
 
