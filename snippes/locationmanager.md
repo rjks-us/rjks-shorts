@@ -1,6 +1,6 @@
-# Spigot Module Library 
+# Location Library 
 
-Spigot Module gives you the ability to create or load custom configuration files.
+Location Manager allows you to define and load location within your plugin
 
 ## Implementing
 
