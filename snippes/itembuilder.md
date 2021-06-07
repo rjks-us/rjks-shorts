@@ -1,4 +1,4 @@
-# Spigot Module Library 
+# Item Builder Library 
 
 Item Builder allows you to create and edit items without dealing with the pain of using ItemMeta
 
