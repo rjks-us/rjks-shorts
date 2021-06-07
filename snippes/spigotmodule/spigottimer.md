@@ -1,4 +1,4 @@
-# Spigot Module Library 
+# Spigot Timer Library 
 
 Spigot Timer gives you the ability to create timers, where you can start, stop or restart repeating timers
 
