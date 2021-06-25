@@ -2,6 +2,8 @@
 
 The MapManager Libary allows you to create, load, unload custom Minecraft Maps.
 
+#### This requires the SpigotModule Class found [here](https://github.com/rjks-us/rjks-shorts/blob/main/snippes/spigotmodule/spigotmodule.md)
+
 ## Implementing
 
 ```java
