@@ -11,6 +11,12 @@ public class Config extends SpigotModule {
         super(directory, name, type, autoCreate);
     }
     
+    @Override
+    public void constructor() {
+        //DO SOMETHING
+        super.constructor();
+    }
+    
 }
 
 ```
@@ -65,7 +71,11 @@ public class SpigotModule {
                 loadFile();
             }
         } catch (Exception exception) {}
+        //RUN CONSTRUCTOR
+        constructor();
     }
+
+    public void constructor() {}
 
     public void createEmptyFile() throws Exception {
         if (!fileExists()) {
