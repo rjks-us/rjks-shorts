@@ -30,6 +30,16 @@ public class ItemBuilder {
     public ItemStack stack;
     public ItemMeta meta;
 
+    public ItemBuilder() {
+        this.stack = new ItemStack(Material.AIR);
+        this.meta = this.stack.getItemMeta();
+    }
+
+    public ItemBuilder(ItemStack stack) {
+        this.stack = stack;
+        if (stack.getItemMeta() != null) this.meta = stack.getItemMeta();
+    }
+
     public ItemBuilder(Material material, String displayname) {
         stack = new ItemStack(material);
         meta = stack.getItemMeta();
