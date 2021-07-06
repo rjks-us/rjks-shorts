@@ -35,7 +35,7 @@ public class Board {
         lines.add("yay");
 
         lines.forEach(element -> {
-            ScoreboardScore score = new ScoreboardScore(scoreboard, obj, element;
+            ScoreboardScore score = new ScoreboardScore(scoreboard, obj, element);
 
             score.setScore(lines.size() - lines.indexOf(element));
             PacketPlayOutScoreboardScore packetPlayOutScoreboardScore = new PacketPlayOutScoreboardScore(score);
