@@ -5,7 +5,7 @@ The Scoreboard Libary allows you to create custom scoreboards without an refresh
 ## Implementing
 
 ```java
-public class Scoreboard {
+public class Board {
 
     public void show(Player player) {
     
